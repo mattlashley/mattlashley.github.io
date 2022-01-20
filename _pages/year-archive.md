@@ -1,6 +1,9 @@
 ---
-title: "Posts by Year"
+title: ""
 permalink: /posts/
-layout: posts
+layout: collection
 author_profile: true
+colleciton: posts
+entries_layout: single
+classes: wide
 ---

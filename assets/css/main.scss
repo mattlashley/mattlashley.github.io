@@ -8,7 +8,7 @@
 @import "minimal-mistakes"; // main partials
 
 .page__content p, .page__content li, .page__content dl {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .author__avatar img {
@@ -31,4 +31,22 @@
     display: block;
     font-weight: normal;
     font-size: $type-size-6;
+    color:darkred;
   }
+
+  a {
+    margin: 0;
+    padding: 5px 5px;
+    font-size: $type-size-5;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+      background: $navicon-link-color-hover;
+    }
+  }
+
+  .page__title {
+    margin-top: 0;
+    line-height: 1;
+    font-size: $type-size-1;
+}

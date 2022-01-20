@@ -17,13 +17,11 @@ title: Write and Review | Technical Communication and Copywriting
 subtitle: Digging into the art (and science) of rhetorical writing.
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Digging into the arte and science of rhetorical writing.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -77,13 +75,13 @@ author:
     #  url: "https://instagram.com/"
 
 footer:
-  links:
+ # links:
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
@@ -96,9 +94,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
-      share: true
+      share: false
       related: true
       show_date: true
   # _pages
@@ -115,7 +113,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
     # _tutorials
   - scope:
       path: "_tutorials"
@@ -123,7 +121,19 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
+      toc: true
+      toc_sticky: true
+      toc_label: "On This Page"
+      toc_icon: "cog"
+    # _blogcontent
+  - scope:
+      path: "_blogcontent"
+      type: blogcontent
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 category_archive:
   type: liquid
@@ -143,3 +153,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  blogcontent:
+    output: true
+

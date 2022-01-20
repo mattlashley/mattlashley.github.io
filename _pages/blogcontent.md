@@ -1,8 +1,8 @@
 ---
 title: 
 layout: collection
-permalink: /tutorials/
-collection: tutorials
+permalink: /blogcontent/
+collection: blogcontent
 entries_layout: single
 classes: wide
 ---
