@@ -7,8 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-p,
-li,
-dl {
-  font-size: 0.1em;
+.page__content p, .page__content li, .page__content dl {
+    font-size: 0.9em;
 }
