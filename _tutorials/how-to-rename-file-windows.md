@@ -1,5 +1,6 @@
 ---
 title: How to Rename a File in Windows 10
+subtitle: You're going to love this.
 last_modified_at: 2022-01-19T16:20:02-05:00
 categories:
   - tutorial
@@ -10,18 +11,24 @@ tags:
 ---
 ## Introduction
 
-Learn three common ways to rename a file in Windows 10:
+Learn three methods to rename a file in Windows 10:
 
-*  from the Winows File Explorer
-*  while using an application like MS Word
-*  from the Windows terminal or command prompt
+*  from the Windows File Explorer
+*  from the Windows Command Line
+*  while using an application like WordPad
+
+Each method listed above correpsonds to a mini tutorial in this document. The On This Page menu displays this document's structure. 
 
 ## Prerequisites
 
- To follow the examples in this tutorial, you'll need:
+This tutorial comprises three mini tutorials. To complete the steps in all three mini tutorials, you'll need:
 
 *  a computer running Windows 10
-*  some experience using Windows to perform tasks like opening applications, browsing files and typing text using a keyboard   
+*  some experience using Windows to perform tasks like opening applications, browsing files and typing text using a keyboard 
+*  an application like WordPad
+
+WordPad was chosen as a learning tool because it implements a file system browsing interface common to a lot of applications that run on Windows. Many computers running Windows have WordPad installed by default. If WordPad isn't installed on your computer, the concept of using the **Save As** function detailed in the tutorial will still be relevant for most Window's users. 
+{: .notice--warning}
 
 ## Key Terms
 
@@ -38,48 +45,47 @@ Windows Key
 
 ## Renaming a file from File Explorer
 
-**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
-{: .notice--info}
+
 
 ### Step 1 -- Open File Explorer
 
 Use one of the following methods to open File Explorer:
 
-1.  Click the Windows Start button
-2.  Press the Windows Key + E
+1.  Press the Windows **Start** button
+2.  Press the Windows **Key** + **E**
 
 ### Step 2 -- Find the file to rename
 
-Use the sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the Search Tool box. 
+Use the left sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the **Search Tool**. 
 
-**Note:** Learn more about using File Explorer Search Tool in the tutorial How to Search for Files Using the File Explorer Search Tool.
+Learn more about using File Explorer Search Tool in the tutorial [How to Search for Files Using the File Explorer Search Tool](https://).
 {: .notice--info}
 
 ### Step 3 -- Rename the file
 
-Once you've found the file in File Explorer, there are several ways to rename it. You can highlight the file and press the F2 key on your keyboard or you can right click the file name. The steps for each method are listed below.
+Once you've located the file, there are several ways to rename it:
 
-### Pressing the F2 key
+#### Highlight the file and press the F2 key
 
-1.  Select the file to highlight it
+1.  Click the file to highlight it
 2.  Press the F2 key on your keyboard
-3.  Type in the new name
+3.  Type the new name into the text box
 4.  Press the Enter key on your keyboard
 
-### Right clicking on the file
+#### Right click the file and click the rename button
 
-1. Right click the file
-2. Click the rename icon
+1. Right click the file name
+2. Click the **Rename** button
 3. Type in the new name
 4. Press the Enter key on your keyboard
 
-## Renaming a file using the "Save A Copy" feature of an application like Microsoft Word
+## Renaming a file using the "Save As" function of WordPad
 
-Applications that run on Windows often provide a way to browse the file system, open a file and save it with a different name. Microsoft Word provides this feature. Follow the steps below to open a file in Microsoft Word and rename it.  
+Applications that run on Windows often provide an interface to browse the file system. You can use the interface to open a file and save it with a different name. WordPad provides this feature. Follow the steps below to open a file in WordPad and rename it.  
 
-### Step 1 -- Open Microsoft Word
+### Step 1 -- Open WordPad
 ### Step 2 -- Click File > Open
-### Step 3 -- Click File > Save A Copy
+### Step 3 -- Click File > Save As
 
 
 ## Renaming a file from the command prompt

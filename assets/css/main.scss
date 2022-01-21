@@ -8,7 +8,7 @@
 @import "minimal-mistakes"; // main partials
 
 .page__content p, .page__content li, .page__content dl {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .author__avatar img {
@@ -24,6 +24,7 @@
     align-self: center;
     font-weight: bold;
     font-size: $type-size-5;
+    color:black;
     // z-index: 20;
   }
 
@@ -48,5 +49,22 @@
   .page__title {
     margin-top: 0;
     line-height: 1;
-    font-size: $type-size-1;
+    font-size: $type-size-2;
+}
+
+.page__title {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 1.5em;
+}
+
+.greedy-nav .visible-links {
+  font-size: 0.70em;
+}
+
+.page__subtitle{
+  border-bottom: 1px solid $light-gray;
+  font-size: $type-size-5;
+  color: $gray;
+  padding-bottom: $type-size-5;
 }
