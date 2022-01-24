@@ -7,8 +7,26 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* type scale */
+$type-size-1: 1.563em !default; // ~25.008px
+$type-size-2: 1.25em !default; // ~20px
+$type-size-3: 1em !default; // ~16px
+$type-size-4: 0.75em !default; // ~12px
+$type-size-5: 0.6875em !default; // ~11px
+$type-size-6: 0.625em !default; // ~10px
+$type-size-7: 0.5625em !default; // ~9px
+$type-size-8: 0.5em !default; // ~8px
+
+/* headline scale */
+$h-size-1: 0.75em !default; // ~12px
+$h-size-2: 0.6875em !default; // ~11px
+$h-size-3: 0.625em !default; // ~10px
+$h-size-4: 0.5625em !default; // ~9px
+$h-size-5: 0.5em !default; // ~8px
+$h-size-6: 0.4375em !default; // ~7px
+
 .page__content p, .page__content li, .page__content dl {
-    font-size: 0.7em;
+    font-size: $type-size-7;
 }
 
 .author__avatar img {
@@ -28,6 +46,12 @@
     // z-index: 20;
   }
 
+  .greedy-nav a.site-title {
+    margin-left: 0;
+    color: black;
+}
+
+
   .site-subtitle {
     display: block;
     font-weight: normal;
@@ -39,6 +63,7 @@
     margin: 0;
     padding: 5px 5px;
     font-size: $type-size-5;
+    color: darkred;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -55,16 +80,113 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-size: 1.5em;
+  font-size: $h-size-3;
 }
 
 .greedy-nav .visible-links {
-  font-size: 0.70em;
+  font-size: $type-size-7;
 }
 
-.page__subtitle{
-  border-bottom: 1px solid $light-gray;
-  font-size: $type-size-5;
+.page__subtitle {
+  font-size: $h-size-1;
   color: $gray;
   padding-bottom: $type-size-5;
+  padding-left: 0.30em;
 }
+
+p.page__subtitle {
+  font-size:$h-size-6;
+}
+
+.toc {
+  font-size: $type-size-4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+  margin-left: 0em;
+  margin-right: 0em;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.archive__item-title {
+    margin-bottom: 0.25em;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:0.75em;
+}
+
+.panel-idea
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  /* background: url('https://api.iconify.design/fa-regular/lightbulb.svg') no-repeat center center / contain; */
+  /* background: url('https://api.iconify.design/oi/lightbulb.svg?color=yellow') no-repeat center center / contain; */
+  background: url('https://api.iconify.design/fa-regular/lightbulb.svg') no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-size: $type-size-3;
+  background-position-x: 5px;
+  border: solid 1px black;
+  background-color: none;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px;
+}
+
+.panel-learnmore
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: rgb(221, 240, 255);
+  background: url('https://api.iconify.design/dashicons/welcome-learn-more.svg') no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-size: $type-size-1;
+  background-position-x: 5px;
+  border: solid 1px black;
+  background-color: none;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px;
+}
+
+.panel-info
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: rgb(221, 240, 255);
+  background: url('https://api.iconify.design/ion/information-circle-outline.svg') no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-size: $type-size-1;
+  background-position-x: 5px;
+  border: solid 1px black;
+  background-color: none;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px;
+}
+
+.panel-warning
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: rgb(221, 240, 255);
+  background: url('https://api.iconify.design/ion/information-circle-outline.svg') no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-size: $type-size-1;
+  background-position-x: 5px;
+  border: solid 1px black;
+  background-color: none;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px;
+}
+

@@ -9,13 +9,17 @@ tags:
   - windows
   - file system
 ---
+
+Learn three ways to rename a file in Windows 10, using File Explorer, the Command Line or an application like WordPad
+{: .page__subtitle}
+
 ## Introduction
 
 Learn three methods to rename a file in Windows 10:
 
-*  from the Windows File Explorer
-*  from the Windows Command Line
-*  while using an application like WordPad
+*  [Using Windows File Explorer](#renaming-a-file-from-file-explorer)
+*  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
+*  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
 Each method listed above correpsonds to a mini tutorial in this document. The On This Page menu displays this document's structure. 
 
@@ -28,7 +32,7 @@ This tutorial comprises three mini tutorials. To complete the steps in all three
 *  an application like WordPad
 
 WordPad was chosen as a learning tool because it implements a file system browsing interface common to a lot of applications that run on Windows. Many computers running Windows have WordPad installed by default. If WordPad isn't installed on your computer, the concept of using the **Save As** function detailed in the tutorial will still be relevant for most Window's users. 
-{: .notice--warning}
+{: .panel-idea}
 
 ## Key Terms
 
@@ -59,7 +63,7 @@ Use one of the following methods to open File Explorer:
 Use the left sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the **Search Tool**. 
 
 Learn more about using File Explorer Search Tool in the tutorial [How to Search for Files Using the File Explorer Search Tool](https://).
-{: .notice--info}
+{: .panel-learnmore}
 
 ### Step 3 -- Rename the file
 
@@ -79,7 +83,7 @@ Once you've located the file, there are several ways to rename it:
 3. Type in the new name
 4. Press the Enter key on your keyboard
 
-## Renaming a file using the "Save As" function of WordPad
+## Renaming a file using the Save As function of WordPad
 
 Applications that run on Windows often provide an interface to browse the file system. You can use the interface to open a file and save it with a different name. WordPad provides this feature. Follow the steps below to open a file in WordPad and rename it.  
 
@@ -93,7 +97,7 @@ Applications that run on Windows often provide an interface to browse the file s
 Windows provides a command line interface (CLI) named the Command Prompt. You can use the Command Prompt to rename a file. There are multiple ways to open a Command Prompt. This example describes one way.
 
 Renaming a file doesn't change the file type. For example, renaming a Word file that has a .docx extension with a .xlsx extension won't convert the file from a Word file to an Excel file. Renaming a file only changes the file's name, not its contents.
-{: .notice--info}
+{: .panel-info}
 
 ### Step 1 - Press the Windows Key + R
 ### Step 2 - Type cmd into the text box and press the Enter key 
@@ -101,4 +105,4 @@ Renaming a file doesn't change the file type. For example, renaming a Word file 
 ### Step 4 - 
 
 If you get an Access is denied error message, you don't have sufficient privileges to rename the file.
-{: .notice--warning}
+{: .panel-warning}

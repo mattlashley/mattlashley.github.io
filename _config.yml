@@ -93,9 +93,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: false
-      comments: true
+      author_profile: false
+      read_time: true
+      comments: false
       share: false
       related: true
       show_date: true
@@ -120,12 +120,14 @@ defaults:
       type: tutorials
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: false
       toc: true
       toc_sticky: true
       toc_label: "On This Page"
       toc_icon: "cog"
+      show_date: false
+      read_time: false
     # _blogcontent
   - scope:
       path: "_blogcontent"
@@ -155,4 +157,3 @@ collections:
     permalink: /:collection/:path/
   blogcontent:
     output: true
-
