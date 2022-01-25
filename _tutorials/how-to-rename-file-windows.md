@@ -10,42 +10,42 @@ tags:
   - file system
 ---
 
-Learn three ways to rename a file in Windows 10, using File Explorer, the Command Line or an application like WordPad
+Learn three ways to rename a file in Windows 10, using File Explorer, the Command Line, and an application like WordPad
 {: .page__subtitle}
 
 ## Introduction
 
-Learn three methods to rename a file in Windows 10:
+Windows 10 provides multiple ways to renmame files. This tutorial walks through three of them:
 
-*  [Using Windows File Explorer](#renaming-a-file-from-file-explorer)
-*  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
-*  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
-
-Each method listed above correpsonds to a mini tutorial in this document. The On This Page menu displays this document's structure. 
+1.  [Using Windows File Explorer](#renaming-a-file-from-file-explorer)
+2.  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
+3.  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
 ## Prerequisites
 
-This tutorial comprises three mini tutorials. To complete the steps in all three mini tutorials, you'll need:
+To complete the steps in all three mini tutorials, you'll need:
 
 *  a computer running Windows 10
 *  some experience using Windows to perform tasks like opening applications, browsing files and typing text using a keyboard 
 *  an application like WordPad
 
-WordPad was chosen as a learning tool because it implements a file system browsing interface common to a lot of applications that run on Windows. Many computers running Windows have WordPad installed by default. If WordPad isn't installed on your computer, the concept of using the **Save As** function detailed in the tutorial will still be relevant for most Window's users. 
+If WordPad isn't installed on your computer, you won't be able to follow the tutorial step by step. However, the **Save As** and **Save File As** functions detailed in the third tutorial are standard functions found in many Windows application functions. 
 {: .panel-idea}
 
 ## Key Terms
 
-file
-file system
-file extension
-File Explorer
-application
-Windows terminal
-command prompt
-right click
-Windows Start Button
-Windows Key
+| Term    | Definition |
+|:--------|:----------:|
+| file    |            |
+| file system   | cell5|
+|----
+| file extension | cell|
+| File Explorer | cell5|
+| command prompt | cell|
+| Windows Start button |
+|=====
+
+
 
 ## Renaming a file from File Explorer
 
@@ -59,7 +59,6 @@ Use one of the following methods to open File Explorer:
 2.  Press the Windows **Key** + **E**
 
 ### Step 2 -- Find the file to rename
-
 Use the left sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the **Search Tool**. 
 
 Learn more about using File Explorer Search Tool in the tutorial [How to Search for Files Using the File Explorer Search Tool](https://).

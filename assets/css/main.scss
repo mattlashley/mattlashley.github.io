@@ -74,13 +74,13 @@ $h-size-6: 0.4375em !default; // ~7px
   .page__title {
     margin-top: 0;
     line-height: 1;
-    font-size: $type-size-2;
+    font-size: $h-size-1;
 }
 
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-size: $h-size-3;
+  font-size: $h-size-1;
 }
 
 .greedy-nav .visible-links {
