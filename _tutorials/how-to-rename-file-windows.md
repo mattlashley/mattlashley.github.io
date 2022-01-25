@@ -38,7 +38,7 @@ If WordPad isn't installed on your computer, you won't be able to follow the tut
 ### Key Terms
 
 file
-:  a named container for collecting data on a computer, similiar to a paper-based yellow file that holds papers
+:  a named container for collecting data on a computer, similiar to a paper-based file that holds papers
 
 file system
 :  comprises directories and files, provides visual organization of the computer's storage system, similar to a file cabinet that holds files
