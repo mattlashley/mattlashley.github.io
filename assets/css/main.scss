@@ -215,3 +215,9 @@ img + em {
   background-size: $type-size-1;
   background-position-x: 1px;
 }
+
+.page__content dd {
+  margin-left: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: $type-size-5;
+}
