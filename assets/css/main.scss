@@ -24,6 +24,22 @@ $h-size-3: 0.5625em !default; // ~9px
 $h-size-4: 0.5em !default; // ~8px
 $h-size-5: 0.4375em !default; // ~7px
 
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.15em;
+}
+
+h3 {
+  font-size: 0.85em;
+}
+
+h4 {
+  font-size: 0.80em;
+}
+
 .page__content p, .page__content li, .page__content dl {
     font-size: $type-size-7;
 }
@@ -189,3 +205,13 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 80px;
 }
 
+img + em { 
+  display: block; text-align: center; 
+}
+
+.windows-button {
+  background: url('https://api.iconify.design/ant-design/windows-filled.svg') no-repeat center center / contain;
+  background-repeat: no-repeat;
+  background-size: $type-size-1;
+  background-position-x: 1px;
+}

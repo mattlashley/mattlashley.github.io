@@ -21,6 +21,9 @@ Windows 10 provides multiple ways to renmame files. This tutorial walks through 
 2.  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
 3.  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
+The file metaphor was adopted early in the development of computer systems. Much like the paper based namesake that hold sets of papers, a computer file holds sets of electronic data. And just like a paper based files, an eleltronic file can be labelled or named, allowing us to identify the file future reference.
+{: .panel-learnmore}
+
 ### Prerequisites
 
 To complete the steps in all three mini tutorials, you'll need:
@@ -55,8 +58,17 @@ If WordPad isn't installed on your computer, you won't be able to follow the tut
 
 Use one of the following methods to open File Explorer:
 
-1.  Press the Windows **Start** button
-2.  Press the Windows **Key** + **E**
+*  On your keyboard, press the <i class="fab fa-windows" aria-hidden="true"></i> **Windows Key** + **E** 
+*  On the Windows taskbar, right click the Windows Start button, then from the menu choose **File Explorer**
+
+![File Explorer](/assets/images/file-explorer.png)
+*File Explorer with the navigation tree displayed in the left siderbar.*
+
+<!---
+| ![file-explorer.png](/assets/images/file-explorer.png) | 
+|:--:| 
+| *File Explorer with the navigation tree displayed in the left siderbar.* |
+--->
 
 ### Step 2 -- Find the file to rename
 Use the left sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the **Search Tool**. 
