@@ -41,10 +41,10 @@ file
 :  a named container for collecting data on a computer, similiar to a paper-based file that holds papers
 
 file system
-:  comprises directories and files, provides visual organization of the computer's storage system, similar to a file cabinet that holds files
+:  comprises directories and files, provides visual organization of the computer's storage system, similar to a file cabinet that stores files
 
 command prompt
-:  a text-based interface to enter commands to do things like renaming a file, also known as a commnand shell, command terminal and Windows Command Processor
+:  a text-based interface to enter commands to do things like renaming a file, also known as a command shell, command terminal and Windows Command Processor
 
 
 ## Renaming a file from File Explorer
@@ -54,10 +54,10 @@ command prompt
 Use one of the following methods to open File Explorer:
 
 *  On your keyboard, press the <i class="fab fa-windows" aria-hidden="true"></i> **Windows Key** + **E** 
-*  On the Windows taskbar, right click the Windows Start button, then from the menu choose **File Explorer**
+*  On the Windows taskbar, right click the <i class="fab fa-windows" aria-hidden="true"></i> Windows Start button, then from the menu choose **File Explorer**
 
 ![File Explorer](/assets/images/file-explorer.png)
-*File Explorer with the navigation tree displayed in the left siderbar.*
+*File Explorer with the navigation tree displayed in the left sidebar and the Search Tool displayed near the top right.*
 
 <!---
 | ![file-explorer.png](/assets/images/file-explorer.png) | 
@@ -66,7 +66,7 @@ Use one of the following methods to open File Explorer:
 --->
 
 ### Step 2 -- Find the file to rename
-Use the left sidebar to navigate to the directory where the file is located. If you know the fie name but aren't sure where the file is located, type the file name into the **Search Tool**. 
+Use the left sidebar to navigate to the directory where the file is located. If you know the file name but aren't sure where the file is located, type the file name into the **Search Tool**. 
 
 Learn more about using File Explorer Search Tool in the tutorial [How to Search for Files Using the File Explorer Search Tool](https://).
 {: .panel-learnmore}
