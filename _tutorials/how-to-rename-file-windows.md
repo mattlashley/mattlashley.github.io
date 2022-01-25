@@ -10,18 +10,18 @@ tags:
   - file system
 ---
 
-Learn three ways to rename a file in Windows 10, using File Explorer, the Command Line, and an application like WordPad
+Learn three ways to rename a file in Windows 10: using File Explorer, the Command Line, and an application like WordPad
 {: .page__subtitle}
 
 ## Introduction
 
-Windows 10 provides multiple ways to renmame files. This tutorial walks through three of them:
+Windows 10 provides multiple ways to rename files. This tutorial walks through three of them:
 
-1.  [Using Windows File Explorer](#renaming-a-file-from-file-explorer)
-2.  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
-3.  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
+1.  [Renaming a file from File Explorer](#renaming-a-file-from-file-explorer)
+2.  [Raniming a file from the Command Prompt](#renaming-a file-from-the-command-prompt)
+3.  [Renaming a file using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
-The file metaphor was adopted early in the development of computer systems. Much like the paper based namesake that hold sets of papers, a computer file holds sets of electronic data. And just like a paper based files, an eleltronic file can be labelled or named, allowing us to identify the file future reference.
+The concept of *files* is a metaphor derived from the world of paper-based file systems. Just like its paper-based namesake, a computer file is a container. Instead of containing pages of paper, a computer file holds electronic data. And just like a paper-based files, an computer file can be labelled or named and renamed.
 {: .panel-learnmore}
 
 ### Prerequisites
@@ -51,8 +51,6 @@ If WordPad isn't installed on your computer, you won't be able to follow the tut
 
 
 ## Renaming a file from File Explorer
-
-
 
 ### Step 1 -- Open File Explorer
 
