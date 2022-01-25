@@ -21,7 +21,7 @@ Windows 10 provides multiple ways to rename files. This tutorial walks through t
 2.  [Raniming a file from the Command Prompt](#renaming-a file-from-the-command-prompt)
 3.  [Renaming a file using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
-The concept of *files* is a metaphor derived from the world of paper-based file systems. A computer file is a container just like its paper-based namesake. Instead of holding data stored on paper pages, a computer file holds electronic data. And just like a paper-based file, a computer file can be labelled with name to help identify its contents.
+The concept of *files* is a metaphor derived from the world of paper-based file systems. A computer file is a container just like its paper-based namesake. Instead of holding data stored on paper pages, a computer file holds electronic data. And just like a paper-based file, a computer file can be labelled with a name to help identify its contents.
 {: .panel-learnmore}
 
 ### Prerequisites
@@ -37,17 +37,14 @@ If WordPad isn't installed on your computer, you won't be able to follow the tut
 
 ### Key Terms
 
-| Term    | Definition |
-|:--------|:----------:|
-| file    |            |
-| file system   | cell5|
-|----
-| file extension | cell|
-| File Explorer | cell5|
-| command prompt | cell|
-| Windows Start button |
-|=====
+file
+:  definition of a file
 
+file system
+:  definitions
+
+command prompt
+:  definition of a file
 
 
 ## Renaming a file from File Explorer
