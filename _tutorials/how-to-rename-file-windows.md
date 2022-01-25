@@ -46,7 +46,6 @@ file system
 command prompt
 :  a text-based interface to enter commands to do things like renaming a file, also known as a command shell, command terminal and Windows Command Processor
 
-
 ## Renaming a file from File Explorer
 
 ### Step 1 -- Open File Explorer
@@ -67,6 +66,9 @@ Use one of the following methods to open File Explorer:
 
 ### Step 2 -- Find the file to rename
 Use the left sidebar to navigate to the directory where the file is located. If you know the file name but aren't sure where the file is located, type the file name into the **Search Tool**. 
+
+![File Explorer](/assets/images/screenshot-file-explorer-search-file.png)
+*Using the Search Tool in File Explorer to find a file that starts with "test".*
 
 Learn more about using File Explorer Search Tool in the tutorial [How to Search for Files Using the File Explorer Search Tool](https://).
 {: .panel-learnmore}
