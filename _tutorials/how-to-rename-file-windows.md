@@ -38,13 +38,13 @@ If WordPad isn't installed on your computer, you won't be able to follow the tut
 ### Key Terms
 
 file
-:  definition of a file
+:  a named container for collecting data on a computer, similiar to a paper-based yellow file that holds papers
 
 file system
-:  definitions
+:  comprises directories and files, provides visual organization of the computer's storage system, similar to a file cabinet that holds files
 
 command prompt
-:  definition of a file
+:  a text-based interface to enter commands to do things like renaming a file, also known as a commnand shell, command terminal and Windows Command Processor
 
 
 ## Renaming a file from File Explorer
