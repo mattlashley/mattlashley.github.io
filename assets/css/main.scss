@@ -18,12 +18,11 @@ $type-size-7: 0.5625em !default; // ~9px
 $type-size-8: 0.5em !default; // ~8px
 
 /* headline scale */
-$h-size-1: 0.75em !default; // ~12px
-$h-size-2: 0.6875em !default; // ~11px
-$h-size-3: 0.625em !default; // ~10px
-$h-size-4: 0.5625em !default; // ~9px
-$h-size-5: 0.5em !default; // ~8px
-$h-size-6: 0.4375em !default; // ~7px
+$h-size-1: 0.6875em !default; // ~11px
+$h-size-2: 0.625em !default; // ~10px
+$h-size-3: 0.5625em !default; // ~9px
+$h-size-4: 0.5em !default; // ~8px
+$h-size-5: 0.4375em !default; // ~7px
 
 .page__content p, .page__content li, .page__content dl {
     font-size: $type-size-7;

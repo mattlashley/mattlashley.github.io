@@ -21,7 +21,7 @@ Windows 10 provides multiple ways to renmame files. This tutorial walks through 
 2.  [Using the Windows Command Line](#renaming-a file-from-the-command-prompt)
 3.  [Using an application like WordPad](#renaming-a-file-using-the-save-as-function-of-wordpad)
 
-## Prerequisites
+### Prerequisites
 
 To complete the steps in all three mini tutorials, you'll need:
 
@@ -29,10 +29,10 @@ To complete the steps in all three mini tutorials, you'll need:
 *  some experience using Windows to perform tasks like opening applications, browsing files and typing text using a keyboard 
 *  an application like WordPad
 
-If WordPad isn't installed on your computer, you won't be able to follow the tutorial step by step. However, the **Save As** and **Save File As** functions detailed in the third tutorial are standard functions found in many Windows application functions. 
+If WordPad isn't installed on your computer, you won't be able to follow the tutorial step by step. However, the **Save As** and **Save File As** functions detailed in the third tutorial are standard functions found in many Windows applications. 
 {: .panel-idea}
 
-## Key Terms
+### Key Terms
 
 | Term    | Definition |
 |:--------|:----------:|
