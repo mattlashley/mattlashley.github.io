@@ -1,6 +1,5 @@
 ---
 title: How to Rename a File in Windows 10
-subtitle: You're going to love this.
 last_modified_at: 2022-01-19T16:20:02-05:00
 categories:
   - tutorial

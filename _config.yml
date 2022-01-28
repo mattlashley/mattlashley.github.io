@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Matt Lashley"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Technical Writer / Commercial Copywriter"
+  bio    : "Technical Writer / Content & Marketing Copywriter"
   links:
     - label: "writeandreview.com"
       icon: "fas fa-fw fa-link"
