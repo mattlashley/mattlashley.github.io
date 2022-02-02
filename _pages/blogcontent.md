@@ -1,6 +1,6 @@
 ---
 title: 
-layout: collection
+layout: home
 permalink: /blogcontent/
 collection: blogcontent
 entries_layout: single

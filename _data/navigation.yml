@@ -1,7 +1,18 @@
 main:
   - title: "Notes on Writing"
     url: /blogcontent/
-  - title: "Tutorials"
-    url: /tutorials/
-  - title: "About"
+  - title: "Matt Lashley"
     url: /about/
+  - title: "Writing Resources"
+    url: /writingresources/
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
